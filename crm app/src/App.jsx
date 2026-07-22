@@ -1,11 +1,19 @@
 import Welcome from "./components/Welcome"
+import Header from "./components/Header"
+import Navbar from "./components/Navbar"
+import Sidebar from "./components/Sidebar"
+import UserCard from "./components/dashboard/UserCard"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to React JS</h1>
-      <p>This is my first react application.</p>
-    </div>
+    <>
+      <Header />
+      <Navbar />
+      <Sidebar />
+      <UserCard />
+      <Footer />
+    </>
   )
 }
 
