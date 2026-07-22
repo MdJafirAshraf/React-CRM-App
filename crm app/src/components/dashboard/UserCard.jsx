@@ -1,9 +1,9 @@
-function Usercard() {
+function Usercard({name, age}) {
     return (
         <>
-            <div>
-                Name: <span>Jafir</span>
-                Age: <span>26</span>
+            <div style={{ border: "2px solid", padding: "10px" }}>
+                <label>Name: <span>{name.join(" - ")}</span></label>
+                <label style={{ marginLeft: "10px" }}>Age: <span>{age}</span></label>
             </div>
         </>
     )

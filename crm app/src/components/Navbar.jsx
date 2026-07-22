@@ -1,8 +1,11 @@
 function Navigations() {
     return (
         <>
-            <span>Home</span>
-            <span>Logout</span>
+            <div style={{ fontWeight: "bold", padding: "5px" }}>
+                <a>Home</a>
+                <a style={{ marginLeft: "5px" }}>Logout</a>
+                <br />
+            </div>
         </>
     )
 }

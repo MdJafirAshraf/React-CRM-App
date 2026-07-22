@@ -8,10 +8,23 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <>
-      <Header />
+      <Header 
+        name = "Jafir Ashraf"
+      />
       <Navbar />
       <Sidebar />
-      <UserCard />
+      <UserCard 
+        name = {["Md", "JAfir"]}
+        age = {26}
+      />
+      <UserCard 
+        name = {["Md", "Ashraf"]}
+        age = {25}
+      />
+      <UserCard 
+        name = {["Md", "Jaf"]}
+        age = {23}
+      />
       <Footer />
     </>
   )
