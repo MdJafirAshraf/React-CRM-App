@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Sidebar from "./components/Sidebar"
 import UserCard from "./components/dashboard/UserCard"
 import ProductCard from "./components/dashboard/ProductCard"
+import Counter from "./components/Counter"
 import Footer from "./components/Footer"
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         age = {23}
       />
       <ProductCard />
+      <Counter init = {5} />
       <Footer />
     </>
   )
