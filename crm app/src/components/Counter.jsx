@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 function CounterFn(props) {
 
@@ -10,8 +10,11 @@ function CounterFn(props) {
         } else {
             setCnt(count - 1)
         }
-        
     }
+
+    useEffect(() => {
+        document.title = `Count: ${count}`
+    }, [count])
 
     return (
         <>
